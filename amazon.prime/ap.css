@@ -1,0 +1,307 @@
+.logo{
+    width: 104px;
+}
+.bgimg{
+    background-image: url("amazon-bgimg.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 670px;
+}
+#mainnav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+@media (max-width: 992px) {
+    #cont1{
+        text-align: end;
+    }
+    #cont2{
+        text-align: end;
+    }
+}
+@media (max-width: 576px) {
+    .bgimg{
+        background-image: url("bgimg1a.jpg");
+        background-position: top center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
+        height: 700px;
+    }
+}
+#main-text1{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#main-text2{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#main-btn{
+    padding-left: 30px;
+}
+#btn-ftr{
+    height: 50px;
+    width: 280px;
+    background-color: #0f79af;
+    color: white;
+}
+@media (max-width: 576px){
+    .m-text{
+        position: relative;
+        top: 400px;
+        left: -10px;
+        text-align: center;
+    }
+}
+.bgimg2{
+    background-image: url("amazon-bgimg2.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+}
+@media (max-width: 576px) {
+    .bgimg2{
+        background-image: url("bgimg2a.jpg");
+        background-position: top center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
+        height: 650px;
+    }
+}
+@media (max-width: 576px){
+    #b2-text{
+        position: relative;
+        top: 245px;
+        left: 15px;
+        text-align: center;
+    }
+    #btn-ftr2{
+        position: relative;
+        left: 230px;
+        top: 230px;
+    }
+}
+#body2-text1{
+    padding-left: 10px;
+    padding-top: 20px;
+    
+}
+#body2-text2{
+    padding-left: 10px;
+    padding-top: 20px;
+    
+}
+#body2-btn{
+    padding-top: 40px;
+    padding-right: 230px;
+    
+}
+#btn-ftr2{
+    height: 50px;
+    width: 280px;
+    background-color: #0f79af;
+    color: white;
+}
+.b2-text-btn{
+    text-align: center;
+}
+@media (max-width: 576px) {
+    #body2-text1{
+        padding-left: 200px;
+    }
+    #body2-text2{
+        padding-left: 200px;
+    }
+}
+#text-btn{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 50px;
+}
+.body3{
+    height: 700px;
+    width: 100%;
+    display: flex;  
+}
+.b3{
+    flex: 1 1 0;
+}
+.body3-text{
+    justify-content: left;
+    padding: 50px;
+}
+.body3-img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 35px;
+}
+.b3-img{
+    border: 1px solid white;
+    width: 220px;
+}
+.b3-img img {
+    width: 100%;
+}
+@media (max-width: 576px) {
+    .b3-img{
+        position: relative;
+        right: 5px;
+        top: -40px;
+    }
+}
+@media (max-width: 576px){
+    .body3{
+        display: block;
+    }
+}
+#body4{
+    background-image: url("amazon-remimg.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+@media (max-width: 576px){
+    #body4{
+        background-image: url("remimg-a.jpg");
+        background-position: top center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
+        width: 100%;
+        height: 650px;
+    }
+}
+.bd4-text{
+    text-align: end;
+    position: relative;
+    top: 90px;
+    right: 15px;
+}
+@media (max-width: 576px) {
+    #b4-text{
+        position: relative;
+        right: -20px;
+        top: 170px;
+        text-align: center;
+    }
+    #btn-ftr4{
+        position: relative;
+        top: 160px;
+        right: -270px;
+        text-align: center;
+    }
+    #body4-text1{
+        text-align:center;
+    }
+}
+#body4-text2{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+/* #text-btn4{
+    padding-top: 40px;
+    padding-top: 40px;
+    padding-right: 230px;
+} */
+#body4-btn{
+    position: relative;
+    right: 290px;
+    top: 15px;
+}
+#btn-ftr4{
+    height: 50px;
+    width: 280px;
+    background-color: #0f79af;
+    color: white;
+}
+.body5{
+    background-image: url("amaozon-cartimg.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+@media (max-width: 576px) {
+    .body5{
+        background-image: url("cart-img2.jpg");
+        background-position: top center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
+        height: 750px
+    }
+}
+#body5-text1{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#body5-text2{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: large;
+}
+@media (max-width: 576px) {
+    #b5-text{
+        position: relative;
+        top: 330px;
+        left: -20px;
+        text-align: center;
+    }
+    #btn-ftr5{
+        position: relative;
+        top: 360px;
+        left: 15px;
+        text-align: center;
+    }
+}
+#body5-btn{
+    padding-left: 30px;
+}
+#btn-ftr5{
+    height: 50px;
+    width: 280px;
+    background-color: #0f79af;
+    color: white;
+}
+#footer{
+    height: 150px;
+    width: 100%;
+}
+#footer-logo{
+    margin-top: 15px;   
+}
+#footer-text{
+    text-align: center;
+}
+.foot{
+    text-align: center;
+}
+@media (max-width: 576px) {
+    #footer-logo{
+        margin-top: 15px;   
+    }
+    .foot{
+        text-align: center;
+    }
+    #footer-text{
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    #footer-logo{
+        margin-top: 15px;   
+    }
+    .foot{
+        text-align: center;
+    }
+    #footer-text{
+        text-align: center;
+    }
+}
